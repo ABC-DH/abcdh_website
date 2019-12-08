@@ -1,7 +1,9 @@
 README.txt
 LICENSE.txt
-images/pic*.jpg
 .DS_Store
 elements.html
 landing.html
 generic.html
+images/pic*.jpg
+images/qr-code-w.png
+images/.DS_Store
