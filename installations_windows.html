@@ -72,12 +72,13 @@
 										<div class="row"> <!-- FIRST ROW -->
 											<div class="col-4 col-12-small">
 												<div class="box">
-													<h3>Git</h3>
+													<h3>Versioning</h3>
 													<p style="margin-top: -28px">Very brief description of course</p>
 														<ul>
-															<li></li>
-															<li></li>
-															<li></li>
+															<li><a href="https://git-scm.com/download/win" target="_blank" title="Opens in new tab">Git</a></li>
+																<ul>
+																	<li style="font-size: 8pt; list-style: none;">Select the "Click here to download manually" option</li>
+																</ul>
 														</ul>
 													</div>
 											</div>
@@ -86,38 +87,71 @@
 													<h3>XML</h3>
 													<p style="margin-top: -28px">Very brief description of course</p>
 														<ul>
-															<li>oXygen XML Editor (trial version)</li>
-															<li></li>
-															<li></li>
+															<li><a href="https://www.oxygenxml.com/download.html" target="_blank" title="Opens in new tab">oXygen XML Editor (trial version)</a></li>
+																<ul>
+																	<li style="font-size: 8pt; list-style: none;">Il s'agit d'un logiciel payant, mais on peut télecharger une licence de test qui dure 30 jours, en remplissant le formulaire disponible ici; l'idéal serait de le faire juste avant l'école pour profiter après le cours.</li>
+																</ul>
 														</ul>
 													</div>
 											</div>
+											<div class="col-4 col-12-small">
+												<div class="box">	
+													<h3>Publishing</h3>
+													<p style="margin-top: -28px">Very brief description of course</p>
+														<ul>
+															<li><a href="https://www.sublimetext.com/" target="_blank" title="Opens in new tab">Sublime Text Editor</a></li>
+															<li><a href="https://www.oxygenxml.com/download.html" target="_blank" title="Opens in new tab">oXygen XML Editor (trial version)</a></li>
+																<ul>
+																	<li style="font-size: 8pt; list-style: none;">Il s'agit d'un logiciel payant, mais on peut télecharger une licence de test qui dure 30 jours, en remplissant le formulaire disponible ici; l'idéal serait de le faire juste avant l'école pour profiter après le cours.</li>
+																</ul>
+														</ul>
+												</div>
+											</div>
+											
+										</div>
+
+										<br /><br />
+										
+										<div class="row"> <!-- SECOND ROW -->	
 											<div class="col-4 col-12-small">
 												<div class="box">
 													<h3>NLP: Syntax</h3>
 													<p style="margin-top: -28px">Very brief description of course</p>
 														<ul>
 															<li><a href="https://www.sublimetext.com/" target="_blank" title="Opens in new tab">Sublime Text Editor</a></li>
-															<li>WinZip (trial version)</li>
-															<li>Perl</li>
-															<li>Cygwin</li>
-															<li>TreeTagger</li>
+															<li><a href="https://www.winzip.com/mac/en/" target="_blank" title="Opens in new tab">WinZip (trial version)</a></li>
+															<li><a href="http://strawberryperl.com/" target="_blank" title="Opens in new tab">Perl</a></li>
+															<li><a href="./materials/treetagger.zip" target="_blank" title="Opens in new tab">TreeTagger</a></li>
+															<li><a href="https://www.cygwin.com/" target="_blank" title="Opens in new tab">Cygwin</a></li>
+																<ul>
+																	<li style="font-size: 8pt; list-style: none;">Pour installer Cygwin, suivre le lien et dans la section "Installating Cygwin" télécharger le fichier indiqué : "Install Cygwin by running xxx.exe". Une fois le fichier .exe téléchargé, faire double click pour lancer l'installation. Choisir Next, en confirmant les options proposées, aussi quand s'ouvre la page d'installation de paquets. En choisissant toujours Next/Suivant (bouton en bas à droite) vous arriverez à la fin de l'installation. Confirmer la création d'une icône dans le Desktop et dans le Menu principal. À la fin de l'installation, vous devrez avoir une icône "Cygwin64 Terminal" sur votre Desktop.</li>
+																</ul>
 														</ul>
 												</div>
 											</div>
-										</div>
 
-										<br /><br />
-										
-										<div class="row"> <!-- SECOND ROW -->
 											<div class="col-4 col-12-small">
 												<div class="box">	
 													<h3>NLP: Semantics</h3>
 													<p style="margin-top: -28px">Very brief description of course</p>
 														<ul>
-															<li>RStudio</li>
-															<li></li>
-															<li></li>
+															<li><a href="https://rstudio.com/" target="_blank" title="Opens in new tab">RStudio</a></li>
+															<li><a href="https://cran.r-project.org/bin/windows/base" target="_blank" title="Opens in new tab">R programming language</a></li>
+															<li>stylo package (Stylometry)</li>
+																<ul style="font-size: 8pt;">
+																	<li>Une fois que R et RStudio sont installés, ouvrez RStudio et écrivez dans le panneau "Console": <span style="font-family: monospace;">install.packages("stylo")</span></li>
+    																<li>appuyez sur Entrée et une série de fichiers sera téléchargée (... vous devez donc être connecté à Internet!).</li>
+   																	<li>Pour vérifier l’installation, écrivez toujours dans la console: <span style="font-family: monospace;">library(stylo)</span></li>
+    																<li>appuyez sur Entrée et un message de bienvenue apparaîtra dans la console.</li>
+																</ul>
+															<li>Syuzhet package (Sentiment Analysis)</li>
+																<ul style="font-size: 8pt;">	
+																    <li>Une fois que R et RStudio sont installés, ouvrez RStudio et écrivez dans le panneau "Console": <span style="font-family: monospace;">install.packages("syuzhet")</span></li>
+																    <li>appuyez sur Entrée et une série de fichiers sera téléchargée (... vous devez donc être connecté à Internet!).</li>
+																    <li>Pour vérifier l'installation, écrivez toujours dans la console: <span style="font-family: monospace;">library(syuzhet)</span></li>
+																    <li>appuyez sur Entrée et dans ce cas aucun message de bienvenue n’apparaîtra (mais pas même des messages d’erreur).</li>
+																    <li>Vous pouvez maintenant fermer toutes les fenêtres sans rien enregistrer.</li>
+																</ul>
 														</ul>
 												</div>
 											</div>
@@ -126,28 +160,21 @@
 													<h3>Cartography</h3>
 													<p style="margin-top: -28px">Very brief description of course</p>
 														<ul>
-															<li>Gephi</li>
-															<li></li>
-															<li></li>
-														</ul>
-												</div>
-											</div>
-											<div class="col-4 col-12-small">
-												<div class="box">	
-													<h3>Publishing</h3>
-													<p style="margin-top: -28px">Very brief description of course</p>
-														<ul>
-															<li></li>
-															<li></li>
-															<li></li>
+															<li><a href="https://gephi.org/" target="_blank" title="Opens in new tab">Gephi</a></li>
+															<li><a href="https://www.qgis.org/it/site/forusers/download.html" target="_blank" title="Opens in new tab">QGIS</a></li>
+															<li>Account Google</li>
+															<li>Account <a href="https://education.github.com" target="_blank" title="Opens in new tab">GitHub Education</a></li>
+															<li>Account <a href="https://carto.com/" target="_blank" title="Opens in new tab">Carto</a>...</li>
+																<ul style="font-size: 8pt; list-style: none;">
+																	<li>...à faire en utilisant l'account Github Education. Attention! Le service de Carto a besoin de quelques jours pour l'activation, donc il faudra le faire avant le début de l'école</li>
+																</ul>
 														</ul>
 												</div>
 											</div>
 										</div>
 
-										<br /><br />
 										
-										<div class="row"> <!-- THIRD ROW -->
+										<!--<div class="row"> 
 											<div class="col-4 col-12-small">
 												<div class="box">	
 													<h3>OCR</h3>
@@ -181,7 +208,7 @@
 														</ul>
 												</div>
 											</div>
-										</div>
+										</div>-->
 
 
 								</div>
