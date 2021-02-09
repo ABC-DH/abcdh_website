@@ -2832,7 +2832,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #c2c2a3;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
@@ -3522,6 +3522,11 @@ input, select, textarea {
 		#banner.style7:after {
 			background-color: #7d0c19;
 		}
+
+		#banner.style8:after {
+			background-color: #999966;
+		}
+
 
 		body.is-preload #banner:after {
 			opacity: 1.0;
