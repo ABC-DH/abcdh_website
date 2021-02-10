@@ -1,0 +1,14 @@
+SELECT ?l (GROUP_CONCAT(?wr ; separator=", ") as ?wrs) (?v as ?polarityScore) #select a LEMMA (?l)
+
+WHERE {
+  SERVICE <https://lila-erc.eu/sparql/lexicalResources/query> {
+    ?le a ontolex:LexicalEntry ;
+        ontolex:canonicalForm ?l ;
+        ontolex:sense ?sense .
+    ?sense marl:hasPolarity marl:Positive ;
+    	   marl:polarityValue  ?v .
+  }
+  ?l ontolex:writtenRep ?wr .
+}
+GROUP BY ?l ?v
+ORDER BY ?wrs
