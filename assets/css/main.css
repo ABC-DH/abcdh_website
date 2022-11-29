@@ -3527,6 +3527,12 @@ input, select, textarea {
 			background-color: #999966;
 		}
 
+		#banner.style9:after {
+			background-color: #9FB8C2;
+		}
+
+		
+
 
 		body.is-preload #banner:after {
 			opacity: 1.0;
